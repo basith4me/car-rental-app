@@ -1,0 +1,151 @@
+╔══════════════════════════════════════════════════════════════════╗
+║          CAR RENTAL SYSTEM v2.0 - START HERE                     ║
+║               ✨ NOW WITH IMAGE UPLOAD! ✨                        ║
+╔══════════════════════════════════════════════════════════════════╗
+
+Welcome to the Car Rental System Version 2.0!
+
+🎉 NEW IN VERSION 2.0
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨ Full Image Upload System
+   - Upload car images when adding/editing cars
+   - Real-time image preview
+   - Automatic image management
+   - Display images throughout the system
+
+📸 IMAGE UPLOAD GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📖 Read: IMAGE_UPLOAD_GUIDE.md
+   - How to upload images
+   - Supported formats (JPG, PNG, GIF)
+   - Troubleshooting tips
+   - Security features
+
+QUICK START (5 Minutes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📖 Read: QUICK_SETUP.md
+   - Fastest way to get started
+   - Step-by-step instructions
+   - 5 minutes to running system
+
+COMPLETE DOCUMENTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📚 README.md - Comprehensive installation guide
+📋 PROJECT_SUMMARY.txt - Complete feature list
+📑 FILE_LIST.txt - All files with descriptions
+📂 DIRECTORY_STRUCTURE.txt - Visual file tree
+🔧 COMMON_TASKS.md - How-to guides
+📝 CHANGELOG.md - Version history and changes
+
+WHAT'S INCLUDED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ 17 PHP Files (Complete functionality)
+✅ 1 CSS File (Full styling)
+✅ 1 JavaScript File (All interactions)
+✅ 1 SQL File (Database with sample data)
+✅ Image Upload System (NEW!)
+✅ 8 Documentation Files
+
+FIRST TIME SETUP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Install XAMPP
+2. Copy this folder to: C:\xampp\htdocs\
+3. Start Apache and MySQL in XAMPP
+4. Create database via phpMyAdmin
+5. Import database/schema.sql
+6. Open: http://localhost/car-rental-system/
+7. The uploads/cars/ folder is ready for images!
+
+DEFAULT LOGIN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Admin Account:
+  Username: admin
+  Password: admin123
+
+Customer Account:
+  Register via the website
+
+FEATURES OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+👨‍💼 Admin Features:
+   ✓ Dashboard with statistics
+   ✓ Add/Edit/Delete cars
+   ✓ Upload car images (NEW!)
+   ✓ View all bookings
+   ✓ Manage users
+
+👤 Customer Features:
+   ✓ Browse cars with images (NEW!)
+   ✓ Filter and search cars
+   ✓ Book cars
+   ✓ View bookings
+   ✓ Cancel bookings
+   ✓ Generate invoices
+
+IMAGE UPLOAD FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📸 Upload images when adding cars
+🔍 Real-time preview before upload
+✏️ Update images when editing cars
+🖼️ Images displayed on all pages
+🔒 Secure upload with validation
+📏 Max size: 5MB
+📁 Supported: JPG, PNG, GIF
+
+QUICK IMAGE UPLOAD TEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Login as admin
+2. Go to "Manage Cars"
+3. Click "Add New Car"
+4. Fill in car details
+5. Click "Choose File" under "Car Image"
+6. Select an image
+7. See preview appear
+8. Click "Add Car"
+9. View the car with image!
+
+NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Check IMAGE_UPLOAD_GUIDE.md for image issues
+2. Check README.md for detailed instructions
+3. Read COMMON_TASKS.md for specific how-tos
+4. Verify all XAMPP services are running
+5. Ensure uploads/cars/ directory exists
+
+RECOMMENDED READING ORDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. START_HERE.txt (this file) ← You are here
+2. QUICK_SETUP.md
+3. IMAGE_UPLOAD_GUIDE.md (NEW!)
+4. README.md
+5. CHANGELOG.md (NEW!)
+6. COMMON_TASKS.md
+
+TECHNOLOGY USED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Frontend:  HTML5, CSS3, Bootstrap 5, JavaScript
+Backend:   Pure PHP (No frameworks)
+Database:  MySQL
+Server:    Apache (via XAMPP)
+Storage:   File system for images
+
+WHAT'S NEW IN V2.0
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨ Complete image upload system
+📸 Image preview functionality
+🖼️ Images display throughout application
+🔒 Enhanced security for uploads
+📁 Organized uploads directory
+🗂️ Full file path storage
+📚 Comprehensive image guide
+📝 Detailed changelog
+
+READY TO START?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ Open QUICK_SETUP.md for the fastest setup guide
+→ Follow the 5 steps and you'll be running in minutes!
+→ Then check IMAGE_UPLOAD_GUIDE.md to start uploading images!
+
+╔══════════════════════════════════════════════════════════════════╗
+║     Enjoy your Car Rental System with Image Upload! 🚗📸        ║
+╚══════════════════════════════════════════════════════════════════╝
