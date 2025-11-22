@@ -84,10 +84,11 @@ $cars = getAllCars('available');
                     <?php foreach (array_slice($cars, 0, 6) as $car): ?>
                         <div class="col-md-4 mb-4">
                             <div class="card h-100">
-                                <?php if ($car['image'] && file_exists($car['image'])): ?>
-                                    <img src="<?php echo htmlspecialchars($car['image']); ?>" 
-                                         alt="<?php echo htmlspecialchars($car['car_name']); ?>" 
-                                         class="card-img-top car-card-img">
+                                <?php if (!empty($car['image'])): ?>
+                                    <img src="<?php echo htmlspecialchars($car['image']); ?>"
+                                         alt="<?php echo htmlspecialchars($car['car_name']); ?>"
+                                         class="card-img-top car-card-img"
+                                         onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'img-placeholder car-card-img\'><i class=\'bi bi-car-front\'></i></div>';">
                                 <?php else: ?>
                                     <div class="img-placeholder car-card-img">
                                         <i class="bi bi-car-front"></i>
