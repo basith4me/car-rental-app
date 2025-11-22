@@ -122,10 +122,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['book_car'])) {
             <div class="row">
                 <!-- Car Image and Info -->
                 <div class="col-lg-6 mb-4">
-                    <?php if ($car['image'] && file_exists($car['image'])): ?>
-                        <img src="<?php echo htmlspecialchars($car['image']); ?>" 
-                             alt="<?php echo htmlspecialchars($car['car_name']); ?>" 
-                             class="car-details-img" style="width: 100%; height: 400px; object-fit: cover; border-radius: 10px;">
+                    <?php if (!empty($car['image'])): ?>
+                        <img src="<?php echo htmlspecialchars($car['image']); ?>"
+                             alt="<?php echo htmlspecialchars($car['car_name']); ?>"
+                             class="car-details-img" style="width: 100%; height: 400px; object-fit: cover; border-radius: 10px;"
+                             onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'img-placeholder\' style=\'height: 400px; border-radius: 10px;\'><i class=\'bi bi-car-front\'></i></div>';">
                     <?php else: ?>
                         <div class="img-placeholder" style="height: 400px; border-radius: 10px;">
                             <i class="bi bi-car-front"></i>
